@@ -17,7 +17,7 @@ import numpy as np
 
 
 # Read df file:
-df=pd.read_csv(r'C:\Users\Haidar\Desktop\AUB\MSBA\Summer\MSBA 350\Projects\Individual project\Data\df.csv')
+df=pd.read_csv('df.csv')
 
 injury_groups = {
     'Group 1: Knee Injuries': ['Meniscal Injury', 'Torn muscle bundle', 'Torn Muscle Fibre', 'Ruptured intraarticular ligament initiation in knee', 'Knee Injury', 'Cruciate Ligament Rupture', 'Cruciate Ligament Injury', 'Patella problems', 'Patella tendon luxation', 'Partial damage to the cruciate ligament', 'Ruptured cruciate ligament', 'Partial demolition of the plantar fascia', 'Inflamed head of fibula', 'Strain of the patella'],
